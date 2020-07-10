@@ -1,0 +1,22 @@
+Uma marca HTML é tudo o que for escrito entre os sinais <> (maior e menor).
+<html> abertura
+</html> fechamento
+Tudo o que escrito entre a abertura e o fechamento vai ser considerado um arquivo html.
+
+Algumas tag's não tem fechamento, para as que possuem, a abertura e o fechamento são feitos da mesma forma.
+
+<!DOCTYPE html> tag para informar ao navegador que será usado o html 5
+
+Para configurar o idioma, deverá ser informado na tag de abertura do html
+<html lang="pt-br">
+
+Dentro do html a tag head, é o cabeçalho, tenho abertura e fechamento.
+Head é usado para configurar o comportamento, mas tudo o que vai aparecer, estará na área body (<body></body>)
+
+Para configuração do navegador aceitar a linguagem latina, com acentuação e Ç, é criada uma nova tag chamada meta, dentro dela deve-se incluir 'charset', que significa conjunto de caracteres e a configuração "UTF-8".
+Tag meta não tem fechamento, ela pode ser deixada aberta um incluir a barra no final da tag.
+
+<title> tag incluída em head, por se tratar de configuração, é o título que aparecerá na aba do navegador.
+<h1> tag usada para se criar um título no corpo do texto que aparece na página.
+
+A formatação da página é feita em css e incluída em head, por ser configuração.
